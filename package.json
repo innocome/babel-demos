@@ -1,0 +1,31 @@
+{
+  "name": "babel-demos",
+  "version": "1.0.0",
+  "description": "babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -wd build",
+    "dev": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innocome/babel-demos.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "alston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innocome/babel-demos/issues"
+  },
+  "homepage": "https://github.com/innocome/babel-demos#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "react": "^15.4.2"
+  }
+}
